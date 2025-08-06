@@ -1,0 +1,13 @@
+prefix=D:/AutoGen Course/agenv/Library
+exec_prefix=D:/AutoGen Course/agenv/Library
+libdir=D:/AutoGen Course/agenv/Library/lib
+sharedlibdir=D:/AutoGen Course/agenv/Library/lib
+includedir=D:/AutoGen Course/agenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
